@@ -170,6 +170,12 @@
                         <viewLayoutGuide key="safeArea" id="dhg-r3-BMa"/>
                     </view>
                     <navigationItem key="navigationItem" id="J9I-ey-Uc2"/>
+                    <connections>
+                        <outlet property="countryCapital" destination="snF-Ud-RFE" id="jcA-5d-iNW"/>
+                        <outlet property="countryName" destination="hLu-rt-nDJ" id="xCu-9C-SGq"/>
+                        <outlet property="countryPopulation" destination="1J7-yT-j7z" id="7RB-jm-r9X"/>
+                        <outlet property="flagImage" destination="3mE-vg-OPW" id="RZG-jg-mLk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="coH-Nz-sqR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

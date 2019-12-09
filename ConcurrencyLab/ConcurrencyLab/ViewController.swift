@@ -25,7 +25,13 @@ class ViewController: UIViewController {
     func loadData() {
         countries = CountryList.getCountries()
     }
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let country = segue.destination as? CountryDetailedVC, let indexPath = tableView.indexPathForSelectedRow else {
+            fatalError()
+        }
+        country.countryDetails = countries[indexPath.row]
+    }
 }
 
 extension ViewController: UITableViewDataSource {
