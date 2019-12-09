@@ -96,6 +96,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="ngQ-Ny-9PI"/>
                     <connections>
+                        <outlet property="searchBar" destination="o6Y-CZ-BKT" id="II1-gA-BR0"/>
                         <outlet property="tableView" destination="YX4-v0-BPY" id="41C-Jr-yq5"/>
                     </connections>
                 </viewController>
